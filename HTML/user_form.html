@@ -1,0 +1,52 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>MY FORM PAGE</title>
+    </head>
+    <body>
+
+         <!-- Form: collects user information -->
+        <form>
+
+            <!-- Name Input: single-line text -->
+            <label for = "name">Your name : </label>
+            <input type = "text" placeholder = "Enter your name" id = "name" required>
+            <br><br>
+
+            <!-- Email Input: browser checks for valid email format -->
+            <label for = "email">Your email : </label>
+            <input type = "email" placeholder = "Enter your email" id = "email" required>
+            <br><br>
+
+            <!-- Password Input: hides typed text -->
+            <label for = "password">Your password : </label>
+            <input type = "password" placeholder = "Enter your password" id = "password" required>
+            <br><br>
+
+            <!-- Feedback Input: multi-line text area -->
+            <label for = "feedback">Your feedback : </label>
+            <textarea rows = "10" cols = "50" placeholder = "Enter your feedback here" id = "feedback"></textarea>
+
+            <!-- Submit button: sends form data -->
+            <button>Submit</button>
+        </form>
+    </body>
+</html>
+
+<!-- 
+    FORM PAGE - Key Points & Attributes:
+
+    - <form>: Wraps all input fields and buttons, tells browser this is a form.
+    - <label>: Describes input fields, linked with input's 'id' for accessibility.
+    - <input> types used here: 
+        * text → single-line text
+        * email → validates email format
+        * password → hides typed characters
+    - placeholder: Shows hint text inside input fields.
+    - required: Forces user to fill the field before submitting.
+    - <textarea>: Multi-line input, use rows & cols for size, placeholder works too.
+    - <button>: Submits the form, type="submit" optional.
+    - id & for: link labels to inputs for usability and screen readers.
+    - name: Important for submitting data to server (can be added later).
+    - This form works without CSS or JS; styling and extra functionality can be added later.
+-->
