@@ -1,0 +1,55 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>MY FORM PAGE</title>
+    </head>
+    <body>
+
+        <form>
+             
+            <p>Select your favourite colour : </p>
+
+
+             <!-- 
+                Radio buttons allow the user to select only one option from a group.
+                Key points:
+                - type="radio" → makes the button a radio button
+                - name="colour" → groups the buttons; only one in the same group can be selected
+                - id="..." → links the input to the label for accessibility
+                - value="..." → the value sent to the server when submitted
+                - <label for="..."> → makes the text clickable and improves usability
+            -->
+            <input type = "radio" name = "colour" id = "red" value = "red">
+            <label for = "red">Red</label><br>
+
+            <input type = "radio" name = "colour" id = "blue" value = "blue">
+            <label for = "blue">Blue</label><br>
+
+            <input type = "radio" name = "colour" id = "green" value = "green">
+            <label for = "green">Green</label><br>
+
+                
+            <p>Select your favourite food : </p>
+
+            <!--
+                 Checkboxes:
+                    - type="checkbox" → creates a checkbox
+                    - name="..." → groups checkboxes for submission (multiple selections allowed)
+                    - id="..." → links input to label for accessibility
+                    - value="..." → value sent to server if checked
+                    - <label for="..."> → makes text clickable
+            -->
+             
+            <input type = "checkbox" name = "food" id = "biriyani" value = "biriyani">
+            <label for = "biriyani">Biriyani</label><br>
+
+            <input type = "checkbox" name = "food" id = "parotta" value = "parotta">
+            <label for = "parotta">Parotta</label><br>
+
+            <input type = "checkbox" name = "food" id = "tandoori" value = "tandoori">
+            <label for = "tandoori">Tandoori</label><br>
+
+
+        </form>
+    </body>
+</html>
