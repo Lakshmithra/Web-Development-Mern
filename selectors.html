@@ -1,0 +1,64 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>My Web page - CSS</title>
+
+        <!--Internal CSS-->
+        <style>
+
+            /* Element Selector */
+            h1{
+                color:green
+            }
+          
+            /* Class Selector */
+            .highlight {
+                color:blue
+            } 
+
+            /* ID Selector */
+            #main{
+                color:aquamarine
+            }
+            
+            /* Universal Selector */
+            *{
+                margin: 0;
+                padding: 0;
+            }
+
+            /* Grouping Selector */
+            h2 , h3{
+                background-color:coral
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>HTML</h1>
+        <h1>CSS</h1>
+        <h1>Java</h1>
+
+        <!--Inline CSS-->
+        <p class = "highlight">WELCOME TO MY WEB PAGE</p>
+        <p id = "main">Today I am learning CSS</p>
+        <p style = "color:orange;background-color: black;">I am learning CSS Basics</p>
+
+        <h2>FULL STACK</h2>
+        <h3>MERN STACK</h3>
+    </body>
+</html>
+
+<!--
+This webpage uses CSS to style elements. CSS can be applied in 3 ways:
+1. Inline CSS: directly inside an element using the "style" attribute.
+2. Internal CSS: inside a <style> tag in the HTML <head>.
+3. External CSS: in a separate .css file linked using <link> tag.
+
+Selectors used in this page:
+- Element selector (e.g., h1) targets all elements of a type.
+- Class selector (e.g., .highlight) targets all elements with a specific class.
+- ID selector (e.g., #main) targets a single element with a specific ID.
+- Universal selector (*) targets all elements.
+- Grouping selector (e.g., h2, h3) applies the same styles to multiple elements.
+-->
