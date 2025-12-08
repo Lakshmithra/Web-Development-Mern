@@ -1,0 +1,79 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>MY WEB PAGE</title>
+
+    <style>
+
+      h1{
+        width: 100px;
+        height: 100px;
+        background-color: goldenrod;
+        position: relative;
+        top:0px;  
+      }
+       
+      h2{
+        width: 100px;
+        height: 100px;
+        background-color: yellowgreen;
+        position: absolute;
+        bottom:0px;
+      }
+
+      h3{
+        width: 100px;
+        height: 100px;
+        background-color:blue;
+        position:fixed;
+        right:0px;
+      }
+
+      h4{
+        width: 100px;
+        height: 100px;
+        background-color: crimson;
+        position:sticky;
+        left:0px;
+      }
+    </style>
+  </head>
+
+  <body>
+      <h1>HTML</h1>
+      <h2>JAVA</h2>
+      <h3>CSS</h3>
+      <h4>JAVASCRIPT</h4>
+
+  </body>
+</html>
+
+/*
+  CSS Position Property Explained:
+
+  1. static:
+     - Default position.
+     - Box sits in normal flow.
+     - Analogy: A box sitting normally on a table.
+
+  2. relative:
+     - Box stays in flow but can be nudged using top/left/right/bottom.
+     - Other elements still consider original space.
+     - Analogy: Slide the box a little on the table, but the table remembers its spot.
+
+  3. absolute:
+     - Box is removed from normal flow.
+     - Positioned relative to nearest ancestor with a position (not static).
+     - Analogy: Pick up the box and place it anywhere inside a room; other boxes ignore it.
+
+  4. fixed:
+     - Box is removed from flow and positioned relative to the viewport.
+     - Stays in place even when scrolling.
+     - Analogy: Tape the box to the screen; it stays visible always.
+
+  5. sticky:
+     - Box acts like relative until a scroll point, then sticks like fixed.
+     - Analogy: Slide the box along with the page, then stick it at a certain point.
+
+  Key: Use position property + top/left/right/bottom to control placement.
+*/
