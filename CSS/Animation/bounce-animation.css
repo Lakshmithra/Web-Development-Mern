@@ -1,0 +1,20 @@
+@keyframes bounce {
+
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-40px);
+    }
+    20%, 80% {
+        transform: translateY(-20px);
+    }
+}        
+
+.bounce{
+    text-align: center;
+    font-size: 200px;
+    position: relative;
+    margin-top: 200px;
+    animation: bounce 3s ease-in-out 1s infinite;
+}
