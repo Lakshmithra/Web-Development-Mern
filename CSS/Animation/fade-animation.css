@@ -1,0 +1,21 @@
+@keyframes fade {
+
+    /* opacity value always between 0 and 1 */
+    0%, 100% {
+        opacity:0;
+    }
+    50% {
+        opacity:1;
+    }
+    20%, 80% {
+        opacity:0.5;
+    }
+}        
+
+.fade{
+    text-align: center;
+    font-size: 200px;
+    position: relative;
+    margin-top: 200px;
+    animation: fade 5s ease-in-out 0s infinite;
+}
