@@ -1,0 +1,51 @@
+.item{
+
+    background-color: lightskyblue;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    margin:0px;
+}
+
+@media(max-width:767px){
+    .container{
+        display:grid;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+}
+@media(min-width:768px) and (max-width:1023px){
+    .container{
+        display:grid;
+        grid-template-columns: repeat(2 , 1fr);
+    }
+}
+
+@media(min-width:1024px){
+    .container{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+} 
+
+/*
+  Responsive Design with CSS Grid:
+
+  Responsive Design → Adjusts layout and content to look good on different screen sizes 
+
+  - Mobile (max-width: 767px):
+    - Single column layout (grid-template-columns: 1fr)
+    - Boxes stack vertically for small screens
+
+  - Tablet (768px to 1023px):
+    - Two column layout (grid-template-columns: repeat(2, 1fr))
+    - Boxes sit side by side for medium screens
+
+  - Laptop/Desktop (min-width: 1024px):
+    - Three column layout (grid-template-columns: repeat(3, 1fr))
+    - Equal width columns for large screens
+
+  Notes:
+    - '1fr' ensures columns are equal width
+    - Media queries override the number of columns depending on screen size
+    - Optional: 'gap' property can add spacing between boxes
+*/
