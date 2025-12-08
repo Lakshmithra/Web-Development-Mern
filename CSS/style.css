@@ -1,0 +1,50 @@
+.topbar{
+     display : flex;
+     background-color: ghostwhite;
+     text-align:right;
+     justify-content: space-evenly;
+     margin:0;
+     padding:10px;
+}
+
+#main{
+    width : 150px;
+    height: auto;
+    border-radius: 40px; /* 50% for circle*/    
+}
+
+.container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue     
+}
+
+.full{
+    background-image: url(a1.png);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.bottombar a{
+    font-size:20px;
+    text-decoration: none;
+    color:black;
+    margin :20px;
+    background-color: lightgray;
+    padding: 5px;    
+}
+
+.bottombar{
+    display: flex;
+    background-color: ghostwhite;
+    text-align: left;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    padding:10px;
+    margin-bottom: 0;
+
+}
+
