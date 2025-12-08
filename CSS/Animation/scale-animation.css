@@ -1,0 +1,20 @@
+@keyframes scale{
+
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform:scale(1.5);
+    }
+    20%, 80% {
+        transform :scale(1);
+    }
+}        
+
+.scale{
+    text-align: center;
+    font-size: 100px;
+    position: relative;
+    margin-top: 200px;
+    animation: scale 5s ease-in-out 0s infinite;
+}
