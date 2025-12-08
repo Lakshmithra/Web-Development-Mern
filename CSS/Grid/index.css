@@ -1,0 +1,37 @@
+.container{
+
+    display:grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
+
+.item{
+
+    background-color: lightskyblue;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    margin:0px;
+}
+
+/*
+  CSS GRID (Layout System)
+
+  ➤ Grid is used to arrange items in rows and columns.
+     It is perfect for creating structured layouts and dashboards.
+
+  ➤ The parent container must have:
+       display: grid;
+
+  ➤ Important properties:
+       grid-template-columns  → Defines number & width of columns
+       grid-template-rows     → Defines number & height of rows
+       gap / row-gap / column-gap → Space between grid items
+
+  ➤ How items are placed:
+       Items automatically fill left to right,
+       and move to the next row when space is full.
+
+  ➤ When to use Grid?
+       When layout needs control in both directions → rows + columns
+       (For only one direction like row OR column → Flexbox is better)
+*/
