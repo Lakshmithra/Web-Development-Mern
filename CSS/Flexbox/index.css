@@ -1,0 +1,47 @@
+.container{
+        background-color: lightcoral;
+        width: 400px;
+        height: 400px;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+      }
+
+      .container p{
+            background-color: lightgrey;
+            padding: 20px;
+            text-align: center;
+      }
+
+/*
+  FLEXBOX EXPLANATION:
+
+  1. display: flex;
+     - Makes a container a flex container.
+     - All direct children become flex items.
+
+  2. flex-direction
+     - Defines main axis direction.
+     - 'row' → items in a row (default)
+     - 'column' → items stacked vertically (used here)
+
+  3. justify-content
+     - Aligns items along the main axis.
+     - Values: flex-start, center, flex-end, space-between, space-around, space-evenly
+     - In this code: space-between → first and last item at edges, middle items spread evenly
+
+  4. align-items
+     - Aligns items along cross axis (perpendicular to main axis)
+     - Values: flex-start, center, flex-end, stretch (default)
+     - In this code: stretch → items fill full width (cross axis)
+
+  5. gap
+     - Adds consistent spacing between flex items
+     - In this code: gap: 10px → 10px space between each item
+
+  Notes:
+  - Flexbox makes layouts flexible and responsive.
+  - Works best for distributing space and aligning elements without using floats or positioning.
+*/
